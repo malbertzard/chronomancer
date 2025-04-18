@@ -1,0 +1,14 @@
+[project]
+name = "chronomancer"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Mathis Albertzard", email = "malbertzard@gmail.com"},
+]
+requires-python = "==3.12.9"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = ["click>=8.1.8", "croniter>=6.0.0"]
+
+[tool.pdm]
+distribution = false
